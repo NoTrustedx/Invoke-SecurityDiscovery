@@ -11,8 +11,6 @@ PowerShell script para el **descubrimiento de software de seguridad en sistemas 
 - ✅ Consulta información de antivirus mediante WMI (`Get-CimInstance` y `Get-WmiObject`)
 - ✅ Muestra las exclusiones activas de Windows Defender
 
----
-
 ## 💻 Uso
 
 ### Ejecución local
@@ -27,16 +25,12 @@ PowerShell script para el **descubrimiento de software de seguridad en sistemas 
 .\Invoke-SecurityDiscovery.ps1 -ComputerName "EQUIPO-REMOTO" -EnableVerbose
 ```
 
----
-
 ## 📥 Parámetros
 
 | Parámetro        | Descripción                                                              |
 | ---------------- | ------------------------------------------------------------------------ |
 | `-ComputerName`  | Nombre del equipo donde se ejecutará el script (por defecto: local)      |
 | `-EnableVerbose` | Muestra información adicional durante la ejecución del script (opcional) |
-
----
 
 ## 📌 Ejemplo de salida
 
@@ -68,16 +62,11 @@ ExclusionPath      ExclusionExtension  ExclusionProcess  DisableRealtimeMonitori
 --------------      ------------------  -----------------  -------------------------
 C:\Tools\Hacking    .ps1                nmap.exe          False
 ```
-
----
-
 ## 🔒 Requisitos
 
 * Ejecutar como **Administrador**
 * Compatible con **Windows 10/11**, Windows Server 2016+
 * PowerShell 5.1+
-
----
 
 ## 📂 Archivos
 
@@ -85,29 +74,15 @@ C:\Tools\Hacking    .ps1                nmap.exe          False
 * `README.md` – Documentación
 * `LICENSE` – Licencia MIT (opcional)
 
----
-
 ## ⚠️ Consideraciones
 
 * Este script está pensado con fines de **auditoría defensiva y educativa**.
 * El uso en entornos Red Team debe estar autorizado bajo contrato o acuerdo de pruebas de penetración.
 
----
-
 ## 👨‍💻 Autor
 
-Erick O. – [@tuusuario](https://github.com/tuusuario)
-Presentado en: [BSidesPerú 2025](https://bsides.pe)
-
----
+ErickO. – [@tuusuario](https://github.com/NoTrustedx)
 
 ## 📄 Licencia
 
 MIT License – libre para uso, modificación y distribución bajo los términos de la licencia.
-
----
-
-```
-
-¿Deseas que te genere también el archivo `.ps1` renombrado correctamente y listo para subir con estructura completa del repositorio (carpetas, licencia, etc.)?
-```
